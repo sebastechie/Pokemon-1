@@ -1,0 +1,28 @@
+.ListContain {
+    border: 2px solid yellow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .bar {
+        border: 2px solid aqua;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list {
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 90%;
+        height: 900px;
+    }
+}
