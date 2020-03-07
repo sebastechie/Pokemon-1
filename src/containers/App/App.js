@@ -8,6 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <main className={styles.main} >
+        
         <PokeList />
       </main>
     );

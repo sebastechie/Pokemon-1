@@ -1,11 +1,15 @@
 .ListContain {
     border: 2px solid yellow;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     // justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: pink;
+    background-image: url(../../static/images/bg1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .bar {
         border: 2px solid aqua;

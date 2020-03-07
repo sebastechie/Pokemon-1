@@ -1,0 +1,23 @@
+$font-stack: Permanent, sans-serif;
+$font-stack: Kalam-Light, sans-serif;
+$font-stack: Kalam-Regular, sans-serif;
+$font-stack: Kalam-Bold, sans-serif;
+
+
+@font-face {
+    font-family: Permanent;
+    src: url("./static/fonts/PermanentMarker-Regular.ttf");
+}
+@font-face {
+    font-family: Kalam-Light;
+    src: url("./static/fonts/Kalam-Light.ttf");
+}
+@font-face {
+    font-family: Kalam-Regular;
+    src: url("./static/fonts/Kalam-Regular.ttf");
+}
+@font-face {
+    font-family: Kalam-Bold;
+    src: url("./static/fonts/Kalam-Bold.ttf");
+}
+

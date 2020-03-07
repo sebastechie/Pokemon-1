@@ -35,7 +35,7 @@ export default class PokeList extends Component {
         let filteredPokemons = this.state.pokemonCharacters.filter(user => {
             return user.name.includes(this.state.searchText)
         })
-        this.setState({ filteredPokemons});
+        this.setState({ filteredPokemons });
     }
 
     render() {
