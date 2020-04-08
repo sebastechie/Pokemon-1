@@ -6,7 +6,6 @@
     width: 300px;
     background-image: cover;
     overflow: hidden;
-    // border-radius: 10px;
     background-size: contain;
     display: flex;
     justify-content: center;
@@ -15,7 +14,13 @@
     border-radius: 10px;
     z-index: 2;
     background-color: beige;
-    box-shadow: 15px 15px 40px black;
+    transition: 1.7s;
+
+    &:hover {
+        transform: rotateY(360deg);
+        box-shadow: 15px 15px 40px black;
+        transition: 1.7s;
+    }
 
     .pokeImg {
         height: 360px;

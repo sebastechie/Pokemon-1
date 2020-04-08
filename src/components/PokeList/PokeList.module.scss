@@ -1,27 +1,45 @@
 .ListContain {
-    border: 2px solid yellow;
+    // border: 2px solid yellow;
     height: 100%;
     width: 100vw;
     display: flex;
-    // justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: pink;
     background-image: url(../../static/images/bg1.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px;
 
     .bar {
-        border: 2px solid aqua;
-        height: 100px;
+        // border: 2px solid aqua;
+        height: 150px;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        padding: 0 5%;
+        background-color: rgba(3,3,3, 0.6);
+        border-radius: 10px;
+
+        .logoContain {
+            // border: 2px solid blue;
+            height: 150px;
+            width: 200px;
+
+            .inLogo {
+                // border: 2px solid blue;
+                background-image: url("../../static//images/pokelogo.png");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 150px;
+                width: 300px;
+            }
+        }
     }
 
     .list {
-        border: 2px solid red;
+        // border: 2px solid red;
         display: flex;
         flex-wrap: wrap;
         align-items: center;

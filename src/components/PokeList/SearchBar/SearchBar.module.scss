@@ -1,14 +1,27 @@
 
 
 .SearchBar {
-    border: 2px solid red;
-    width: 200px;
+    // border: 8px solid yellow;
+    // width: 200px;
     height: 50px;
+    width: 300px;
     outline: none;
     font-size: 15px;
+    padding: 3%;
+    border-style: none;
+    border-bottom: 1px solid black;
+    background: none;
+    // background-color: rgba(3,3,3, 0.5);
+    color: white;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
     
     ::placeholder {
-        color: pink;
-        opacity: 0.3;
+        color: white;
     }
 }
